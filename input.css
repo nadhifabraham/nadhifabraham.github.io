@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar blur effect */
+.navbar-blur {
+    backdrop-filter: blur(10px); /* Efek blur */
+    background-color: rgba(255, 255, 255, 0.7); /* Transparansi dengan warna */
+    transition: backdrop-filter 0.3s, background-color 0.3s; /* Efek transisi */
+  }
+  
